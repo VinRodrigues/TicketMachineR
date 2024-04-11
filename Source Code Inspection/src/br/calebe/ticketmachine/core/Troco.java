@@ -9,6 +9,7 @@ import java.util.Iterator;
 class Troco {
 
     protected PapelMoeda(this.valor, this.quantidade);
+    protected int[] papelMoeda = {2, 5, 10, 20, 50, 100};
 
     public Troco(int valor) {
     int count = 0;
