@@ -12,9 +12,10 @@ class Troco {
 
     public Troco(int valor) {
     this.papeisMoeda = new PapelMoeda[5];
+    int count = 0;
         
         papeisMoeda[5] = new PapelMoeda(100, count);
-        int count = 0;
+        count = 0;
         while (valor % 100 != 0) {
             count++;
         }
