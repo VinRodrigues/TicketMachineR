@@ -37,7 +37,7 @@ public class TicketMachine {
     }
 
     public Iterator<Integer> getTroco() {
-        return null;
+        return troco;
     }
 
     public String imprimir() throws SaldoInsuficienteException {
