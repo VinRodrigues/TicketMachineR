@@ -47,6 +47,7 @@ public class TicketMachine {
 
         novoSaldo = valor - saldo;
         String result = "*****************\n";
+
         result += "*** Valor do Ingresso R$ " + valor + ",00 ****\n";
         result += "*****************\n";
         result += "*** Saldo Disponível R$ " + novoSaldo + ",00 ****\n";
