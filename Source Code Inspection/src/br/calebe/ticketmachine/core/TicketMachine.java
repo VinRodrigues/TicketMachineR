@@ -37,7 +37,24 @@ public class TicketMachine {
     }
 
     public Iterator<Integer> getTroco() {
-        return null;
+        List<Integer> troco = new ArrayList<>();
+    int valorTroco = saldo - valor;
+    int index = papelMoeda.length - 1;
+
+    while (valorTroco > 0 && index >= 0) {
+        if (valorTroco >= papelMoeda[index]) {
+            troco.add(papelMoeda[index]);
+            valorTroco -= papelMoeda[index];
+        } else {
+            index--;
+        }
+    }
+
+    if (valorTroco != 0) {
+        throw new RuntimeException("Impossível fornecer o troco com as cédulas disponíveis.");
+    }
+
+    return troco.iterator();
     }
 
     public String imprimir() throws SaldoInsuficienteException {
