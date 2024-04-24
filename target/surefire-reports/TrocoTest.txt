@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TrocoTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in TrocoTest
+TrocoTest.testTrocoIterator  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <10>
+	at TrocoTest.testTrocoIterator(TrocoTest.java:54)
+
+TrocoTest.testSeparacaoDinheiro  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
+	at TrocoTest.testSeparacaoDinheiro(TrocoTest.java:31)
+
+TrocoTest.testTrocoIteratorValorZero  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at TrocoTest.testTrocoIteratorValorZero(TrocoTest.java:67)
+
