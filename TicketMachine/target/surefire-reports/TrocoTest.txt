@@ -1,30 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TrocoTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE!
-TrocoTest.testTrocoIteratorValorZero()  Time elapsed: 0 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:40)
-	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:35)
-	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:210)
-	at TrocoTest.testTrocoIteratorValorZero(TrocoTest.java:67)
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.019 s <<< FAILURE! - in TrocoTest
+TrocoTest.testTrocoIterator  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <10>
+	at TrocoTest.testTrocoIterator(TrocoTest.java:54)
 
-TrocoTest.testSeparacaoDinheiro()  Time elapsed: 0.002 sec  <<< FAILURE!
+TrocoTest.testSeparacaoDinheiro  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <5> but was: <6>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
 	at TrocoTest.testSeparacaoDinheiro(TrocoTest.java:31)
 
-TrocoTest.testTrocoIterator()  Time elapsed: 0.001 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <5> but was: <10>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:145)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:510)
-	at TrocoTest.testTrocoIterator(TrocoTest.java:54)
+TrocoTest.testTrocoIteratorValorZero  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at TrocoTest.testTrocoIteratorValorZero(TrocoTest.java:67)
 

@@ -1,34 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: TicketMachineTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec <<< FAILURE!
-TicketMachineTest.testFornecerTrocoImpossivel()  Time elapsed: 0.026 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Deveria ter lançado uma RuntimeException
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:109)
-	at TicketMachineTest.testFornecerTrocoImpossivel(TicketMachineTest.java:56)
-
-TicketMachineTest.testImprimirComSaldoSuficiente()  Time elapsed: 0.012 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <*****************
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! - in TicketMachineTest
+TicketMachineTest.testImprimirComSaldoSuficiente  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <*****************
 *** R$ 20,00 ****
 *****************
 > but was: <*****************
 *** R$ 0,00 ****
 *****************
 >
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
 	at TicketMachineTest.testImprimirComSaldoSuficiente(TicketMachineTest.java:78)
 
-TicketMachineTest.testFornecerTroco()  Time elapsed: 0.001 sec  <<< FAILURE!
+TicketMachineTest.testFornecerTroco  Time elapsed: 0.002 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <[10]> but was: <[]>
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
-	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1124)
 	at TicketMachineTest.testFornecerTroco(TicketMachineTest.java:94)
+
+TicketMachineTest.testFornecerTrocoImpossivel  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Deveria ter lanÃ§ado uma RuntimeException
+	at TicketMachineTest.testFornecerTrocoImpossivel(TicketMachineTest.java:56)
 
